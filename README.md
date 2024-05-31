@@ -1,6 +1,6 @@
 # Physi.cs
 
-A 2D physics engine built from scratch with no libraries
+A 2D physics engine for games and beyond
 
 Currently building 👷‍♂️
 
