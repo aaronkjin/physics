@@ -1,6 +1,6 @@
 # Physi.cs
 
-A 2D physics engine for games and beyond
+A 2D real-time physics engine. Let's simulate physical systems in digital environments!
 
 Currently building 👷‍♂️
 
