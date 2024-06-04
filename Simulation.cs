@@ -16,5 +16,12 @@ using Flat.Input;
 
 namespace FlatPhysics
 {
-  
+  public class Simulation : Game
+  {
+    private GraphicsDeviceManager graphics;
+    private Screen screen;
+    private Sprites sprites;
+    private Shapes shapes;
+    private Camera camera;
+  }
 }
