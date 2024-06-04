@@ -15,6 +15,14 @@ namespace FlatPhysics
 {
   public readonly struct FlatVector
   {
-    
+    public readonly float X;
+    public readonly float Y;
+
+    // Constructor for vector struct
+    public FlatVector (float x, float y)
+    {
+      this.X = x;
+      this.Y = y;
+    }
   }
 }
