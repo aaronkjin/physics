@@ -23,5 +23,19 @@ namespace FlatPhysics
     private Sprites sprites;
     private Shapes shapes;
     private Camera camera;
+
+    // Constructor for Simulation class
+    public Simulation()
+    {
+      this.graphics = new GraphicsDeviceManager(this);
+      this.graphics.SynchronizeWithVerticalRetrace = true;
+
+      this.Content.RootDirectory = "Content";
+      this.IsMouseVisible = true;
+      this.IsFixedTimeStep = true;
+
+      const double UpdatesPerSecond = 60d;
+      this.TargetElapsedTime = TimeSpan.FromTicks((long)Math.Round((double)TimeSpan.TicksPerSecond / UpdatesPerSecond));
+    }
   }
 }
