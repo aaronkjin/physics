@@ -4,6 +4,12 @@ A 2D real-time physics engine, simulating physical systems in digital environmen
 
 Currently building 👷‍♂️
 
+## Getting Started
+
+```bash
+# install C# and .NET framework
+```
+
 ## Developer
 
 Aaron Jin  
