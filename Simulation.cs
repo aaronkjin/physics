@@ -50,5 +50,9 @@ namespace FlatPhysics
 
       base.Initialize();
     }
+
+    protected override void LoadContent()
+    {
+    }
   }
 }
