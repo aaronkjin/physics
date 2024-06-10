@@ -37,5 +37,18 @@ namespace FlatPhysics
       const double UpdatesPerSecond = 60d;
       this.TargetElapsedTime = TimeSpan.FromTicks((long)Math.Round((double)TimeSpan.TicksPerSecond / UpdatesPerSecond));
     }
+
+    protected override void Initialize()
+    {
+      FlatUtil.SetRelativeBackBufferSize(this.graphics, 0.85f);
+
+      this.screen = new Screen(this, 1280, 768);
+      this.sprites = new Sprites(this);
+      this.shapes = new Shapes(this);
+      this.camera = new Camera(this.screen);
+      this.camera.Zoom = 5;
+
+      base.Initialize();
+    }
   }
 }
