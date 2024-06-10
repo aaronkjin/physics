@@ -86,5 +86,19 @@ namespace FlatPhysics
 
       base.Update(gameTime);
     }
+
+    protected override void Draw(GameTime gameTime)
+    {
+      this.screen.Set();
+      this.GraphicsDevice.Clear(new Color(50, 60, 70));
+
+      this.shapes.Begin(this.camera);
+      this.shapes.End();
+
+      this.screen.Unset();
+      this.screen.Present(this.sprites);
+
+      base.Draw(gameTime);
+    }
   }
 }
