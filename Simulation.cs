@@ -54,5 +54,37 @@ namespace FlatPhysics
     protected override void LoadContent()
     {
     }
+
+    protected override void Update(GameTime gameTime)
+    {
+      FlatKeyboard keyboard = FlatKeyboard.Instance;
+      FlatMouse mouse = FlatMouse.Instance;
+
+      keyboard.Update();
+      mouse.Update();
+
+      if (keyboard.IsKeyAvailable)
+      {
+        // Key to leave simulation
+        if (keyboard.IsKeyClicked(Keys.Escape))
+        {
+          this.Exit();
+        }
+
+        // Key to zoom in
+        if (keyboard.IsKeyClicked(Keys.A))
+        {
+          this.camera.IncZoom();
+        }
+
+        // Key to zoom out
+        if (keyboard.IsKeyClicked(Keys.Z))
+        {
+          this.camera.DecZoom();
+        }
+      }
+
+      base.Update(gameTime);
+    }
   }
 }
