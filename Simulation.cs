@@ -63,6 +63,7 @@ namespace FlatPhysics
       keyboard.Update();
       mouse.Update();
 
+      // 2D scene, but camera can move in 3D space
       if (keyboard.IsKeyAvailable)
       {
         // Key to leave simulation
