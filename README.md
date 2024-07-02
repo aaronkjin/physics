@@ -7,7 +7,8 @@ Currently building 👷‍♂️
 ## Getting Started
 
 ```bash
-# install C# and .NET framework
+# verify C# and .NET is installed locally; if not, install
+dotnet
 ```
 
 ## Developer
