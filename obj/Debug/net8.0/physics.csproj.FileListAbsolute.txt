@@ -1,0 +1,5 @@
+/Users/aaronjin/Downloads/Projects/physics/obj/Debug/net8.0/physics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjin/Downloads/Projects/physics/obj/Debug/net8.0/physics.AssemblyInfoInputs.cache
+/Users/aaronjin/Downloads/Projects/physics/obj/Debug/net8.0/physics.AssemblyInfo.cs
+/Users/aaronjin/Downloads/Projects/physics/obj/Debug/net8.0/physics.csproj.CoreCompileInputs.cache
+/Users/aaronjin/Downloads/Projects/physics/obj/Debug/net8.0/physics.sourcelink.json
