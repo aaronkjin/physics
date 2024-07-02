@@ -7,7 +7,7 @@ Currently building 👷‍♂️
 ## Getting Started
 
 ```bash
-# verify C# and .NET is installed locally
+# verify C# and .NET SDK is installed locally
 dotnet
 ```
 
