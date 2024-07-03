@@ -10,9 +10,9 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using Flat;
-using Flat.Graphics;
-using Flat.Input;
+using flat;
+using flat.graphics;
+using flat.input;
 
 namespace FlatPhysics
 {
