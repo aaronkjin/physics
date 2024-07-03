@@ -9,6 +9,9 @@ Currently building 👷‍♂️
 ```bash
 # verify C# and .NET SDK is installed locally
 dotnet
+
+# install MonoGame templates
+dotnet new --install MonoGame.Templates.CSharp
 ```
 
 ## Developer
