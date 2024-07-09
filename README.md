@@ -19,8 +19,8 @@ cd engine
 # for helper operations, check out flat
 cd flat
 
-# for tests and simulations, check out test
-cd test
+# for tests and simulations, check out tests
+cd tests
 ```
 
 ## Developer
