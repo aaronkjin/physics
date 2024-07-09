@@ -2,13 +2,17 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "MonoGame.Framework.DesktopGL/3.8.1.303": {
+      "MonoGame.Framework.DesktopGL/3.8.0.1641": {
         "type": "package",
         "compile": {
-          "lib/net6.0/MonoGame.Framework.dll": {}
+          "lib/netstandard2.0/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/MonoGame.Framework.dll": {}
+          "lib/netstandard2.0/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "build/MonoGame.Framework.DesktopGL.targets": {}
@@ -22,7 +26,7 @@
             "assetType": "native",
             "rid": "linux-x64"
           },
-          "runtimes/osx/native/libSDL2.dylib": {
+          "runtimes/osx/native/libSDL2-2.0.0.dylib": {
             "assetType": "native",
             "rid": "osx"
           },
@@ -51,21 +55,24 @@
     }
   },
   "libraries": {
-    "MonoGame.Framework.DesktopGL/3.8.1.303": {
-      "sha512": "eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
+    "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+      "sha512": "rJQlrlHQbnOECYV6EcQ8GlGRQ2lzPTroXQcyyOZ0ki+BQRSJEN2zVBm9skqLiXya348aGAfTSSGTaSKjAy9NaA==",
       "type": "package",
-      "path": "monogame.framework.desktopgl/3.8.1.303",
+      "path": "monogame.framework.desktopgl/3.8.0.1641",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "build/MonoGame.Framework.DesktopGL.targets",
-        "lib/net6.0/MonoGame.Framework.dll",
-        "monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+        "lib/net452/MonoGame.Framework.dll",
+        "lib/net452/MonoGame.Framework.xml",
+        "lib/netstandard2.0/MonoGame.Framework.dll",
+        "lib/netstandard2.0/MonoGame.Framework.xml",
+        "monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
         "monogame.framework.desktopgl.nuspec",
         "runtimes/linux-x64/native/libSDL2-2.0.so.0",
         "runtimes/linux-x64/native/libopenal.so.1",
-        "runtimes/osx/native/libSDL2.dylib",
+        "runtimes/osx/native/libSDL2-2.0.0.dylib",
         "runtimes/osx/native/libopenal.1.dylib",
         "runtimes/win-x64/native/SDL2.dll",
         "runtimes/win-x64/native/soft_oal.dll",
@@ -76,7 +83,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MonoGame.Framework.DesktopGL >= 3.8.1.303"
+      "MonoGame.Framework.DesktopGL >= 3.8.0.1641"
     ]
   },
   "packageFolders": {
@@ -123,7 +130,7 @@
         "dependencies": {
           "MonoGame.Framework.DesktopGL": {
             "target": "Package",
-            "version": "[3.8.1.303, )"
+            "version": "[3.8.0.1641, )"
           }
         },
         "imports": [

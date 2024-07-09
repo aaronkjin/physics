@@ -3,14 +3,34 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Platforms>AnyCPU;x64</Platforms>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="**\*.cs" />
+    <Compile Include="Counter.cs" />
+    <Compile Include="FlatBox.cs" />
+    <Compile Include="FlatCircle.cs" />
+    <Compile Include="FlatEllipse.cs" />
+    <Compile Include="FlatMath.cs" />
+    <Compile Include="FlatRay.cs" />
+    <Compile Include="FlatSize.cs" />
+    <Compile Include="FlatTransform.cs" />
+    <Compile Include="FlatUtil.cs" />
+    <Compile Include="graphics/Camera.cs" />
+    <Compile Include="graphics/Model2D.cs" />
+    <Compile Include="graphics/Screen.cs" />
+    <Compile Include="graphics/Shapes.cs" />
+    <Compile Include="graphics/Sprites.cs" />
+    <Compile Include="input/FlatGamePad.cs" />
+    <Compile Include="input/FlatInput.cs" />
+    <Compile Include="input/FlatKeyboard.cs" />
+    <Compile Include="input/FlatMouse.cs" />
+    <Compile Include="RandomHelper.cs" />
+    <Compile Include="Stats.cs" />
   </ItemGroup>
 
 </Project>

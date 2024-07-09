@@ -59,7 +59,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+          "MonoGame.Framework.DesktopGL": "3.8.0.1641"
         },
         "compile": {
           "bin/placeholder/flat.dll": {}

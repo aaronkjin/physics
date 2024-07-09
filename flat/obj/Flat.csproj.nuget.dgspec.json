@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aaronjin/Downloads/Projects/physics/flat/Flat.csproj": {}
+    "/Users/aaronjin/Downloads/Projects/physics/flat/flat.csproj": {}
   },
   "projects": {
-    "/Users/aaronjin/Downloads/Projects/physics/flat/Flat.csproj": {
+    "/Users/aaronjin/Downloads/Projects/physics/flat/flat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aaronjin/Downloads/Projects/physics/flat/Flat.csproj",
-        "projectName": "Flat",
-        "projectPath": "/Users/aaronjin/Downloads/Projects/physics/flat/Flat.csproj",
+        "projectUniqueName": "/Users/aaronjin/Downloads/Projects/physics/flat/flat.csproj",
+        "projectName": "flat",
+        "projectPath": "/Users/aaronjin/Downloads/Projects/physics/flat/flat.csproj",
         "packagesPath": "/Users/aaronjin/.nuget/packages/",
         "outputPath": "/Users/aaronjin/Downloads/Projects/physics/flat/obj/",
         "projectStyle": "PackageReference",
@@ -45,7 +45,7 @@
           "dependencies": {
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
-              "version": "[3.8.1.303, )"
+              "version": "[3.8.0.1641, )"
             }
           },
           "imports": [
