@@ -14,7 +14,7 @@ using flat;
 using flat.graphics;
 using flat.input;
 
-namespace FlatPhysics
+namespace tests
 {
   public class Simulation : Game
   {
@@ -94,6 +94,7 @@ namespace FlatPhysics
       this.GraphicsDevice.Clear(new Color(50, 60, 70));
 
       this.shapes.Begin(this.camera);
+      this.shapes.DrawCircle(0, 0, 32, 32, Color.White);  // Circle to test that imports work
       this.shapes.End();
 
       this.screen.Unset();
