@@ -24,7 +24,7 @@
   </ItemGroup>
     <ItemGroup>
     <Compile Include="Simulation.cs" />
-    <Compile Include="FlatVector.cs" />
+    <Compile Include="engine\**\*.cs" />
     <Compile Include="flat\**\*.cs" />
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
