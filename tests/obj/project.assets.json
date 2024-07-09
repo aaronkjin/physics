@@ -107,9 +107,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aaronjin/Downloads/Projects/physics/tests/monogame.csproj",
-      "projectName": "monogame",
-      "projectPath": "/Users/aaronjin/Downloads/Projects/physics/tests/monogame.csproj",
+      "projectUniqueName": "/Users/aaronjin/Downloads/Projects/physics/tests/tests.csproj",
+      "projectName": "tests",
+      "projectPath": "/Users/aaronjin/Downloads/Projects/physics/tests/tests.csproj",
       "packagesPath": "/Users/aaronjin/.nuget/packages/",
       "outputPath": "/Users/aaronjin/Downloads/Projects/physics/tests/obj/",
       "projectStyle": "PackageReference",

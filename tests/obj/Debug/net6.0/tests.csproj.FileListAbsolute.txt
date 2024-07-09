@@ -1,0 +1,6 @@
+/Users/aaronjin/Downloads/Projects/physics/tests/obj/Debug/net6.0/tests.csproj.AssemblyReference.cache
+/Users/aaronjin/Downloads/Projects/physics/tests/obj/Debug/net6.0/tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aaronjin/Downloads/Projects/physics/tests/obj/Debug/net6.0/tests.AssemblyInfoInputs.cache
+/Users/aaronjin/Downloads/Projects/physics/tests/obj/Debug/net6.0/tests.AssemblyInfo.cs
+/Users/aaronjin/Downloads/Projects/physics/tests/obj/Debug/net6.0/tests.csproj.CoreCompileInputs.cache
+/Users/aaronjin/Downloads/Projects/physics/tests/obj/Debug/net6.0/tests.sourcelink.json
