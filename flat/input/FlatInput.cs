@@ -1,5 +1,5 @@
 ﻿using System;
-using Flat.Graphics;
+using flat.graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
