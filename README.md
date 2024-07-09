@@ -13,11 +13,14 @@ dotnet
 # install MonoGame templates
 dotnet new --install MonoGame.Templates.CSharp
 
-# for 2D physics-related items, check out monogame
-cd monogame
+# for 2D physics-related items, check out engine
+cd engine
 
 # for helper operations, check out flat
-cd monogame/flat
+cd flat
+
+# for tests and simulations, check out test
+cd test
 ```
 
 ## Developer
