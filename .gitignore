@@ -1,2 +1,4 @@
 .DS_Store
 *.cache
+flat/bin
+tests/bin
