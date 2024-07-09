@@ -6,13 +6,19 @@ Currently building 👷‍♂️
 
 ## Getting Started
 
+Prerequisites:
+
 ```bash
 # verify C# and .NET SDK is installed locally
 dotnet
 
 # install MonoGame templates
 dotnet new --install MonoGame.Templates.CSharp
+```
 
+Quick setup to build and run:
+
+```bash
 # for 2D physics-related items, check out engine
 cd engine
 
