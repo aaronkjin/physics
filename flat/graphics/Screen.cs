@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Flat.Graphics
+namespace flat.graphics
 {
     public sealed class Screen : IDisposable
     {

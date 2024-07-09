@@ -4,11 +4,11 @@ using System.Runtime.CompilerServices;
 using System.Numerics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Flat.Graphics;
+using flat.graphics;
 
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 
-namespace Flat
+namespace flat
 {
     public static class FlatUtil
     {

@@ -3,7 +3,7 @@
 //using Microsoft.Xna.Framework;
 //using Microsoft.Xna.Framework.Graphics;
 
-//namespace Flat.Graphics
+//namespace flat.graphics
 //{
 //    public class Model2D : IDisposable
 //    {

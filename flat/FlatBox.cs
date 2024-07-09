@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 
-namespace Flat
+namespace flat
 {
     public readonly struct FlatBox
     {

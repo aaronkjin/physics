@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
-namespace Flat.Input
+namespace flat.input
 {
     public sealed class FlatKeyboard
     {

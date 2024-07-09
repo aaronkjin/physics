@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace Flat
+namespace flat
 {
     public sealed class Counter
     {

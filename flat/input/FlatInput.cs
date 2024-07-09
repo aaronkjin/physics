@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 
-namespace Flat.Input
+namespace flat.input
 {
     using Ray = Microsoft.Xna.Framework.Ray;
     

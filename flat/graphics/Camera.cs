@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 
-namespace Flat.Graphics
+namespace flat.graphics
 {
     public sealed class Camera
     {

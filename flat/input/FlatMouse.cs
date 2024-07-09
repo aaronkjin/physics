@@ -2,10 +2,10 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using Flat;
-using Flat.Graphics;
+using flat;
+using flat.graphics;
 
-namespace Flat.Input
+namespace flat.input
 {
     using Ray = Microsoft.Xna.Framework.Ray;
     

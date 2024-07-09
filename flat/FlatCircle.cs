@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 
-namespace Flat
+namespace flat
 {
     public readonly struct FlatCircle
     {

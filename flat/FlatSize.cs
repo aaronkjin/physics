@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace Flat
+namespace flat
 {
     public readonly struct FlatSize
     {

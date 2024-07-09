@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using Microsoft.Xna.Framework;
 
-namespace Flat
+namespace flat
 {
     public static class FlatMath
     {

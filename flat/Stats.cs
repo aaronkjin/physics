@@ -2,10 +2,10 @@
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Flat.Graphics;
+using flat.graphics;
 using System.Collections.Generic;
 
-namespace Flat
+namespace flat
 {
     public sealed class Stats
     {
