@@ -21,6 +21,12 @@ cd flat
 
 # for tests and simulations, check out tests
 cd tests
+
+# go into the project, then build
+dotnet build
+
+# go into the project, then run
+dotnet run
 ```
 
 ## Developer
