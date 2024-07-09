@@ -1,6 +1,4 @@
 .DS_Store
 *.cache
-flat/bin
-flat/obj
-tests/bin
-tests/obj
+**/bin
+**/obj
