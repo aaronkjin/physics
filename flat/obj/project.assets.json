@@ -2,13 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "MonoGame.Content.Builder.Task/3.8.1.303": {
-        "type": "package",
-        "build": {
-          "build/MonoGame.Content.Builder.Task.props": {},
-          "build/MonoGame.Content.Builder.Task.targets": {}
-        }
-      },
       "MonoGame.Framework.DesktopGL/3.8.1.303": {
         "type": "package",
         "compile": {
@@ -54,37 +47,10 @@
             "rid": "win-x86"
           }
         }
-      },
-      "flat/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "MonoGame.Framework.DesktopGL": "3.8.1.303"
-        },
-        "compile": {
-          "bin/placeholder/flat.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/flat.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "MonoGame.Content.Builder.Task/3.8.1.303": {
-      "sha512": "9Ilzzje62LhWElbPNEl7vh7XsRSbze+lvCJdZtTZUGu48FRgvYN6THURwIB9PN98EI33/Wnf6iuShNUtD7hL4Q==",
-      "type": "package",
-      "path": "monogame.content.builder.task/3.8.1.303",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "build/MonoGame.Content.Builder.Task.props",
-        "build/MonoGame.Content.Builder.Task.targets",
-        "monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-        "monogame.content.builder.task.nuspec"
-      ]
-    },
     "MonoGame.Framework.DesktopGL/3.8.1.303": {
       "sha512": "eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
       "type": "package",
@@ -106,18 +72,11 @@
         "runtimes/win-x86/native/SDL2.dll",
         "runtimes/win-x86/native/soft_oal.dll"
       ]
-    },
-    "flat/1.0.0": {
-      "type": "project",
-      "path": "../flat/flat.csproj",
-      "msbuildProject": "../flat/flat.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MonoGame.Content.Builder.Task >= 3.8.1.303",
-      "MonoGame.Framework.DesktopGL >= 3.8.1.303",
-      "flat >= 1.0.0"
+      "MonoGame.Framework.DesktopGL >= 3.8.1.303"
     ]
   },
   "packageFolders": {
@@ -126,11 +85,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aaronjin/Downloads/Projects/physics/tests/tests.csproj",
-      "projectName": "tests",
-      "projectPath": "/Users/aaronjin/Downloads/Projects/physics/tests/tests.csproj",
+      "projectUniqueName": "/Users/aaronjin/Downloads/Projects/physics/flat/flat.csproj",
+      "projectName": "flat",
+      "projectPath": "/Users/aaronjin/Downloads/Projects/physics/flat/flat.csproj",
       "packagesPath": "/Users/aaronjin/.nuget/packages/",
-      "outputPath": "/Users/aaronjin/Downloads/Projects/physics/tests/obj/",
+      "outputPath": "/Users/aaronjin/Downloads/Projects/physics/flat/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/aaronjin/.nuget/NuGet/NuGet.Config"
@@ -144,11 +103,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "/Users/aaronjin/Downloads/Projects/physics/flat/flat.csproj": {
-              "projectPath": "/Users/aaronjin/Downloads/Projects/physics/flat/flat.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -166,10 +121,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "MonoGame.Content.Builder.Task": {
-            "target": "Package",
-            "version": "[3.8.1.303, )"
-          },
           "MonoGame.Framework.DesktopGL": {
             "target": "Package",
             "version": "[3.8.1.303, )"
@@ -189,10 +140,6 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.31, 6.0.31]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
             "version": "[6.0.31, 6.0.31]"
           },
           {
