@@ -94,7 +94,7 @@ namespace tests
       this.GraphicsDevice.Clear(new Color(50, 60, 70));
 
       this.shapes.Begin(this.camera);
-      
+      this.shapes.DrawCircle(0, 0, 32, 32, Color.White);
       this.shapes.End();
 
       this.screen.Unset();
