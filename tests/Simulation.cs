@@ -72,13 +72,13 @@ namespace tests
           this.Exit();
         }
 
-        // Key to zoom in
+        // Key 'A' to zoom in
         if (keyboard.IsKeyClicked(Keys.A))
         {
           this.camera.IncZoom();
         }
 
-        // Key to zoom out
+        // Key 'Z' to zoom out
         if (keyboard.IsKeyClicked(Keys.Z))
         {
           this.camera.DecZoom();
