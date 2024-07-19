@@ -45,9 +45,12 @@ namespace tests
       float x2 = 0.001f;
       float y2 = 0.003f;
 
+      Stopwatch watch = new Stopwatch();
+
       for (int i = 0; i < 1_000_000; i++)
       {
-
+        x1 += x2;
+        y1 += y2;
       }
 
       FlatUtil.SetRelativeBackBufferSize(this.graphics, 0.85f);
