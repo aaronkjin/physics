@@ -40,6 +40,16 @@ namespace tests
 
     protected override void Initialize()
     {
+      float x1 = 0.05f;
+      float y1 = 0.002f;
+      float x2 = 0.001f;
+      float y2 = 0.003f;
+
+      for (int i = 0; i < 1_000_000; i++)
+      {
+
+      }
+
       FlatUtil.SetRelativeBackBufferSize(this.graphics, 0.85f);
 
       this.screen = new Screen(this, 1280, 768);
