@@ -48,6 +48,7 @@ namespace tests
       Stopwatch watch = new Stopwatch();
       watch.Start();
 
+      // Represents a vector via two floating point values
       for (int i = 0; i < 1_000_000; i++)
       {
         x1 += x2;
@@ -55,6 +56,10 @@ namespace tests
       }
 
       watch.Stop();
+
+      Console.WriteLine($"{x1}, {y1}");
+      Console.WriteLine($"Time: {watch.Elapsed.TotalMilliseconds}");
+      Console.ReadKey(true);
 
       FlatUtil.SetRelativeBackBufferSize(this.graphics, 0.85f);
 
