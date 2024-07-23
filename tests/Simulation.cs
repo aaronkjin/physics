@@ -54,7 +54,7 @@ namespace tests
         y1 += y2;
       }
 
-      watch.End();
+      watch.Stop();
 
       FlatUtil.SetRelativeBackBufferSize(this.graphics, 0.85f);
 
