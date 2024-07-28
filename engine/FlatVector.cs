@@ -62,5 +62,15 @@ namespace engine
     {
       return this.X == other.X && this.Y == other.Y;
     }
+
+    // Pattern-match and cast a vector
+    public override bool Equals(object obj)
+    {
+      if (obj is FlatVector other)
+      {
+        return this.Equal(other);
+      }
+      return base.Equals(obj);
+    }
   }
 }
