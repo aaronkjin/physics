@@ -36,5 +36,10 @@ namespace engine
     {
       return new FlatVector(a.X - b.X, a.Y - b.Y);
     }
+
+    // Vector multiplication (with a scalar)
+    public static FlatVector operator *(FlatVector v, float s) {
+      return new FlatVector(v.X * s, v.Y * s);
+    }
   }
 }
