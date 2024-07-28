@@ -25,10 +25,16 @@ namespace engine
       this.Y = y;
     }
 
-    // Test performance of vector addition
+    // Vector addition
     public static FlatVector operator +(FlatVector a, FlatVector b)
     {
       return new FlatVector(a.X + b.X, a.Y + b.Y);
+    }
+
+    // Vector subtraction
+    public static FlatVector operator -(FlatVector a, FlatVector b)
+    {
+      return new FlatVector(a.X - b.X, a.Y - b.Y);
     }
   }
 }
