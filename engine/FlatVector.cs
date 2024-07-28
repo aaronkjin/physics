@@ -18,6 +18,8 @@ namespace engine
     public readonly float X;
     public readonly float Y;
 
+    public static readonly FlatVector Zero = new FlatVector(0f, 0f);
+
     // Constructor for vector struct
     public FlatVector (float x, float y)
     {
