@@ -48,7 +48,8 @@ namespace tests
       float x2 = 0.001f;
       float y2 = 0.003f;
 
-      
+      FlatVector a = new FlatVector(x1, y1);
+      FlatVector b = new FlatVector(x2, y2);
 
       Stopwatch watch = new Stopwatch();
       watch.Start();
@@ -56,13 +57,15 @@ namespace tests
       // Represents a vector via two floating point values
       for (int i = 0; i < 1_000_000; i++)
       {
-        x1 += x2;
-        y1 += y2;
+        // x1 += x2;
+        // y1 += y2;
+        a += b;
       }
 
       watch.Stop();
 
-      Console.WriteLine($"{x1}, {y1}");
+      // Console.WriteLine($"{x1}, {y1}");
+      Console.WriteLine($"{a.X}, {a.Y}");
       Console.WriteLine($"Time: {watch.Elapsed.TotalMilliseconds}");
       Console.ReadKey(true);
 
