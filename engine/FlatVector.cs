@@ -28,7 +28,7 @@ namespace engine
     // Test performance of vector addition
     public static FlatVector operator +(FlatVector a, FlatVector b)
     {
-      return new FlatVector(a.X = b.X, a.Y + b.Y);
+      return new FlatVector(a.X + b.X, a.Y + b.Y);
     }
   }
 }
