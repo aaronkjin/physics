@@ -73,10 +73,16 @@ namespace engine
       return false;
     }
 
-    // Get hash representation of a vector
+    // Hash representation of a vector
     public override int GetHashCode()
     {
       return new { this.X, this.Y }.GetHashCode();
+    }
+
+    // String representation of a vector
+    public override string ToString()
+    {
+      return $"X: {this.X}, Y: {this.Y}";
     }
   }
 }
