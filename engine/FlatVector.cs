@@ -41,5 +41,10 @@ namespace engine
     public static FlatVector operator *(FlatVector v, float s) {
       return new FlatVector(v.X * s, v.Y * s);
     }
+
+    // Vector division (with a scalar)
+    public static FlatVector operator /(FlatVector v, float s) {
+      return new FlatVector(v.X / s, v.Y / s);
+    }
   }
 }
