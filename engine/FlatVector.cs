@@ -37,13 +37,21 @@ namespace engine
       return new FlatVector(a.X - b.X, a.Y - b.Y);
     }
 
+    // Vector negation
+    public static FlatVector operator -(FlatVector v)
+    {
+      return new FlatVector(-v.X, -v.Y);
+    }
+
     // Vector multiplication (with a scalar)
-    public static FlatVector operator *(FlatVector v, float s) {
+    public static FlatVector operator *(FlatVector v, float s) 
+    {
       return new FlatVector(v.X * s, v.Y * s);
     }
 
     // Vector division (with a scalar)
-    public static FlatVector operator /(FlatVector v, float s) {
+    public static FlatVector operator /(FlatVector v, float s) 
+    {
       return new FlatVector(v.X / s, v.Y / s);
     }
   }
