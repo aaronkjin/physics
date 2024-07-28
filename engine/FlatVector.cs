@@ -56,5 +56,11 @@ namespace engine
     {
       return new FlatVector(v.X / s, v.Y / s);
     }
+
+    // Check equality between vectors
+    public bool Equal(FlatVector other)
+    {
+      return this.X == other.X && this.Y == other.Y;
+    }
   }
 }
