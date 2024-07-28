@@ -70,7 +70,13 @@ namespace engine
       {
         return this.Equal(other);
       }
-      return base.Equals(obj);
+      return false;
+    }
+
+    // Get hash representation of a vector
+    public override int GetHashCode()
+    {
+      return new { this.X, this.Y }.GetHashCode();
     }
   }
 }
