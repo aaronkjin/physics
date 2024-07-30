@@ -32,5 +32,11 @@ namespace engine
     {
 
     }
+
+    // Cross product with two vectors
+    public static float Cross(FlatVector a, FlatVector b)
+    {
+
+    }
   }
 }
