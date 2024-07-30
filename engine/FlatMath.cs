@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace engine
 {
-  class FlatMath
+  public static class FlatMath
   {
-    
+    // Length of a vector
+    public static float Length(FlatVector v)
+    {
+
+    }
   }
 }
