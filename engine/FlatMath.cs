@@ -13,5 +13,10 @@ namespace engine
     {
 
     }
-  }
+
+    // Distance between points in space
+    public static float Distance(FlatVector a, FlatVector b)
+    {
+
+    }
 }
