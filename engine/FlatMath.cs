@@ -19,4 +19,11 @@ namespace engine
     {
 
     }
+
+
+    // Normalization of a vector
+    public static FlatVector Normalize(FlatVector v)
+    {
+
+    }
 }
