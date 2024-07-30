@@ -26,4 +26,11 @@ namespace engine
     {
 
     }
+
+    // Dot product with two vectors
+    public static float Dot(FlatVector a, FlatVector b)
+    {
+
+    }
+  }
 }
