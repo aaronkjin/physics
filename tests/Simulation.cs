@@ -27,6 +27,8 @@ namespace tests
     private Shapes shapes;
     private Camera camera;
 
+    private FlatVector vectorA = new FlatVector(3f, 4f)
+
     // Constructor for Simulation class
     public Simulation()
     {
@@ -43,32 +45,6 @@ namespace tests
 
     protected override void Initialize()
     {
-      float x1 = 0.05f;
-      float y1 = 0.002f;
-      float x2 = 0.001f;
-      float y2 = 0.003f;
-
-      FlatVector a = new FlatVector(x1, y1);
-      FlatVector b = new FlatVector(x2, y2);
-
-      Stopwatch watch = new Stopwatch();
-      watch.Start();
-
-      // Represents a vector via two floating point values
-      for (int i = 0; i < 1_000_000; i++)
-      {
-        // x1 += x2;
-        // y1 += y2;
-        a += b;
-      }
-
-      watch.Stop();
-
-      // Console.WriteLine($"{x1}, {y1}");
-      Console.WriteLine($"{a.X}, {a.Y}");
-      Console.WriteLine($"Time: {watch.Elapsed.TotalMilliseconds}");
-      Console.ReadKey(true);
-
       FlatUtil.SetRelativeBackBufferSize(this.graphics, 0.85f);
 
       this.screen = new Screen(this, 1280, 768);
@@ -123,7 +99,8 @@ namespace tests
       this.GraphicsDevice.Clear(new Color(50, 60, 70));
 
       this.shapes.Begin(this.camera);
-      this.shapes.DrawCircle(0, 0, 32, 32, Color.White);
+      // All vectors are relative to the origin
+      this.shapes.DrawLine(FlatVector)
       this.shapes.End();
 
       this.screen.Unset();
