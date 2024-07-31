@@ -1,3 +1,10 @@
+/* 
+ * Class for basic vector math operations.
+ *
+ * Includes methods for length,
+ * distance, normalization, dot
+ * product, and cross product.
+*/
 using System;
 using System.Collections.Generic;
 using System.Linq;
