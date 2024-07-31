@@ -5,6 +5,7 @@
  * distance, normalization, dot
  * product, and cross product.
 */
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
