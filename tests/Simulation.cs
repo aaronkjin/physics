@@ -27,7 +27,7 @@ namespace tests
     private Shapes shapes;
     private Camera camera;
 
-    private FlatVector vectorA = new FlatVector(3f, 4f)
+    private FlatVector vectorA = new FlatVector(3f, 4f);
 
     // Constructor for Simulation class
     public Simulation()
