@@ -16,6 +16,7 @@ namespace engine
 {
   public static class FlatMath
   {
+    /*
     // Length of a vector
     public static float Length(FlatVector v)
     {
@@ -46,5 +47,6 @@ namespace engine
     {
 
     }
+    */
   }
 }
