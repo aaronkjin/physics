@@ -1,6 +1,6 @@
 /*
  * Converts FlatVectors to MonoGame
- * vectors, and vice versa
+ * vectors, and vice versa.
 */
 
 using System;
