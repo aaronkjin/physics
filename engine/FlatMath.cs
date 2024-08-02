@@ -16,13 +16,12 @@ namespace engine
 {
   public static class FlatMath
   {
-    /*
     // Length of a vector
     public static float Length(FlatVector v)
     {
 
     }
-
+#if false
     // Distance between points in space
     public static float Distance(FlatVector a, FlatVector b)
     {
@@ -47,6 +46,6 @@ namespace engine
     {
 
     }
-    */
+#endif
   }
 }
