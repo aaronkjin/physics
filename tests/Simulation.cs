@@ -27,7 +27,7 @@ namespace tests
     private Shapes shapes;
     private Camera camera;
 
-    private FlatVector vectorA = new FlatVector(3f, 4f);
+    private FlatVector vectorA = new FlatVector(12f, 20f);
 
     // Constructor for Simulation class
     public Simulation()
@@ -51,7 +51,7 @@ namespace tests
       this.sprites = new Sprites(this);
       this.shapes = new Shapes(this);
       this.camera = new Camera(this.screen);
-      this.camera.Zoom = 5;
+      this.camera.Zoom = 8;
 
       base.Initialize();
     }
