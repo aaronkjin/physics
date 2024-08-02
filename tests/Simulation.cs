@@ -100,7 +100,7 @@ namespace tests
 
       this.shapes.Begin(this.camera);
       // All vectors are relative to the origin
-      // this.shapes.DrawLine(FlatVector)
+      this.shapes.DrawLine(Vector2.Zero, FlatConverter.ToVector2(this.vectorA), Color.White);
       this.shapes.End();
 
       this.screen.Unset();
