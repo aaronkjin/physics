@@ -45,6 +45,9 @@ namespace tests
 
     protected override void Initialize()
     {
+      Console.WriteLine(FlatMath.Length(this.vectorA));
+      Console.ReadKey(true);
+      
       FlatUtil.SetRelativeBackBufferSize(this.graphics, 0.85f);
 
       this.screen = new Screen(this, 1280, 768);
