@@ -19,10 +19,7 @@ namespace engine
     // Length/magnitude of a vector
     public static float Length(FlatVector v)
     {
-      float dx = v.X - 0f;
-      float dy = v.Y - 0f;
-
-      return MathF.Sqrt((dx * dx) + (dy * dy));
+      return MathF.Sqrt((v.X * v.X) + (v.Y * v.Y));
     }
 
 #if false
