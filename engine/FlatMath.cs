@@ -16,11 +16,15 @@ namespace engine
 {
   public static class FlatMath
   {
-    // Length of a vector
+    // Length/magnitude of a vector
     public static float Length(FlatVector v)
     {
+      float dx = v.X - 0f;
+      float dy = v.Y - 0f;
 
+      return MathF.Sqrt((dx * dx) + (dy * dy));
     }
+
 #if false
     // Distance between points in space
     public static float Distance(FlatVector a, FlatVector b)
