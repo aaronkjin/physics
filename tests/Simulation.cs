@@ -7,7 +7,7 @@
 using System;
 using System.Diagnostics;
 using System.Collections.Generic;
-using Microsoft.Xna.Framework;
+// using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -28,11 +28,6 @@ namespace tests
     private Camera camera;
 
     private FlatVector vectorA = new FlatVector(12f, 20f);
-
-    private Vector2 ConvertToVector2(FlatVector v)
-    {
-        return new Vector2(v.X, v.Y);
-    }
 
     // Constructor for Simulation class
     public Simulation()
@@ -108,7 +103,7 @@ namespace tests
 
       this.shapes.Begin(this.camera);
       // All vectors are relative to the origin
-      this.shapes.DrawLine(Vector2.Zero, ConvertToVector2(this.vectorA), Color.White);
+      this.shapes.DrawLine(FlatVector.Zero, this.vectorA, Color.White);
       this.shapes.End();
 
       this.screen.Unset();
