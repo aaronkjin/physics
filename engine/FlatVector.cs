@@ -11,6 +11,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Microsoft.Xna.Framework;
+
 namespace engine
 {
   public readonly struct FlatVector
@@ -25,6 +27,12 @@ namespace engine
     {
       this.X = x;
       this.Y = y;
+    }
+
+    // Implicit conversion operator
+    public static implicit operator Vector2(FlatVector v)
+    {
+        return new Vector2(v.X, v.Y);
     }
 
     // Vector addition
