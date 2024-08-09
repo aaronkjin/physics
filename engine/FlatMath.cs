@@ -27,16 +27,21 @@ namespace engine
     {
       float dx = a.X - b.X;
       float dy = a.Y - b.Y;
+
       return MathF.Sqrt((dx * dx) + (dy * dy));
     }
 
-#if false
     // Normalization of a vector
     public static FlatVector Normalize(FlatVector v)
     {
+      float len = FlatMath.Length(v);
+      float x = v.X / len;
+      float y = v.Y / len;
 
+      return new FlatVector(x, y);
     }
 
+#if false
     // Dot product with two vectors
     public static float Dot(FlatVector a, FlatVector b)
     {
