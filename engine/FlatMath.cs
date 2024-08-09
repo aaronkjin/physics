@@ -55,7 +55,7 @@ namespace engine
     public static float Cross(FlatVector a, FlatVector b)
     {
       /*
-       * 2D physics, so treat z as z = 0 plane
+       * 2D physics, so treat z as z = 0 plane:
        * c.x = 0
        * c.y = 0
        * c.z = a.x x b.y - a.y x b.x
