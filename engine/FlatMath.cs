@@ -41,13 +41,14 @@ namespace engine
       return new FlatVector(x, y);
     }
 
-#if false
     // Dot product with two vectors
     public static float Dot(FlatVector a, FlatVector b)
     {
-
+      // a · b = a.x × b.x + a.y × b.y
+      return ((a.X * b.X) + (a.Y * b.Y));
     }
 
+#if false
     // Cross product with two vectors
     public static float Cross(FlatVector a, FlatVector b)
     {
