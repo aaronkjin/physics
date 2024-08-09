@@ -59,6 +59,7 @@ namespace engine
        * c.x = 0
        * c.y = 0
        * c.z = a.x x b.y - a.y x b.x
+       * This is also cool: https://www.geogebra.org/m/psMTGDgc
       */
       return ((a.X * b.Y) - (a.Y * b.X));
     }
