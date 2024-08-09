@@ -44,16 +44,17 @@ namespace engine
     // Dot product with two vectors
     public static float Dot(FlatVector a, FlatVector b)
     {
-      // a · b = a.x × b.x + a.y × b.y
+      /*
+       * a · b = a.x × b.x + a.y × b.y
+       * This is cool: https://www.falstad.com/dotproduct/
+      */
       return ((a.X * b.X) + (a.Y * b.Y));
     }
 
-#if false
     // Cross product with two vectors
     public static float Cross(FlatVector a, FlatVector b)
     {
 
     }
-#endif
   }
 }
