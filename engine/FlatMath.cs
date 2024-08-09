@@ -22,14 +22,15 @@ namespace engine
       return MathF.Sqrt((v.X * v.X) + (v.Y * v.Y));
     }
 
-#if false
     // Distance between points in space
     public static float Distance(FlatVector a, FlatVector b)
     {
-
+      float dx = a.X - b.X;
+      float dy = a.Y - b.Y;
+      return MathF.Sqrt((dx * dx) + (dy * dy));
     }
 
-
+#if false
     // Normalization of a vector
     public static FlatVector Normalize(FlatVector v)
     {
