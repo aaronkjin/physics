@@ -106,10 +106,13 @@ namespace tests
       this.screen.Set();
       this.GraphicsDevice.Clear(new Color(50, 60, 70));
 
+      FlatVector normalized = FlatMath.Normalize(this.vectorA);
+
       this.shapes.Begin(this.camera);
       // All vectors are relative to the origin
       // this.shapes.DrawLine(FlatVector.Zero, this.vectorA, Color.White);
       this.shapes.DrawLine(Vector2.Zero, ToVector2(this.vectorA), Color.White);
+       this.shapes.DrawLine(Vector2.Zero, ToVector2(normalized), Color.Green);
 
       this.shapes.End();
 
