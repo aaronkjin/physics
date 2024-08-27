@@ -45,7 +45,7 @@ namespace tests
 
     protected override void Initialize()
     {
-      Console.WriteLine(FlatMath.Length(this.vectorA));
+      Console.WriteLine(engine.FlatMath.Length(this.vectorA));
       Console.ReadKey(true);
 
       FlatUtil.SetRelativeBackBufferSize(this.graphics, 0.85f);
@@ -106,8 +106,11 @@ namespace tests
       this.screen.Set();
       this.GraphicsDevice.Clear(new Color(50, 60, 70));
 
-      this.shapes.Begin(this.camera);
+      FlatVector normalized = engine.FlatMath.Normalize(this.vectorA);
 
+      this.shapes.Begin(this.camera);
+      this.shapes.DrawLine(Vector2.Zero, FlatConverter.ToVector2(this.vectorA), Color.White);
+      this.shapes.DrawLine(Vector2.Zero, FlatConverter.ToVector2(normalized), Color.Green);
       this.shapes.End();
 
       this.screen.Unset();
