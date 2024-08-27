@@ -111,8 +111,8 @@ namespace tests
       this.shapes.Begin(this.camera);
       // All vectors are relative to the origin
       // this.shapes.DrawLine(FlatVector.Zero, this.vectorA, Color.White);
-      this.shapes.DrawLine(Vector2.Zero, ToVector2(this.vectorA), Color.White);
-       this.shapes.DrawLine(Vector2.Zero, ToVector2(normalized), Color.Green);
+      this.shapes.DrawLine(ToVector2(FlatVector.Zero), ToVector2(this.vectorA), Color.White);
+      this.shapes.DrawLine(ToVector2(FlatVector.Zero), ToVector2(normalized), Color.Green);
 
       this.shapes.End();
 
