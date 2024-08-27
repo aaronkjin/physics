@@ -24,7 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\flat\flat.csproj" />
-    <Compile Include="..\engine\FlatVector.cs" />
+    <ProjectReference Include="..\engine\engine.csproj" />
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
     <Message Text="Restoring dotnet tools" Importance="High" />
