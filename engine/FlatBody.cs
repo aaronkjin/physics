@@ -49,5 +49,10 @@ namespace engine
       this.Height = height;
       this.ShapeType = shapeType;
     }
+
+    public static bool CreateCircleBody(float radius, FlatVector position, float density, bool isStatic, float restitution)
+    {
+      
+    }
   }
 }
