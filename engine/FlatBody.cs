@@ -21,5 +21,12 @@ namespace engine
     private float area;
     
     private bool isStatic;
+
+    // For circles
+    private float radius;
+
+    // For boxes
+    private float width;
+    private float height;
   }
 }
