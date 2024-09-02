@@ -30,5 +30,24 @@ namespace engine
     public readonly float Height;
 
     public readonly ShapeType ShapeType;
+
+    private FlatBody(FlatVector position, float density, float mass, float restitution, float area, float isStatic, float radius, float width, float height, ShapeType shapeType)
+    {
+      this.position = position;
+      this.linearVelocity = FlatVector.Zero;
+      this.rotation = 0f;
+      this.rotationalVelocity = 0f;
+
+      this.Density = density;
+      this.Mass = mass;
+      this.Restitution = restitution;
+      this.Area = area;
+
+      this.IsStatic = isStatic;
+      this.Radius = radius;
+      this.Width = width;
+      this.Height = height;
+      this.ShapeType = shapeType;
+    }
   }
 }
