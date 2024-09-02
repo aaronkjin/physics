@@ -2,6 +2,12 @@ using System;
 
 namespace engine
 {
+  public enum ShapeType
+  {
+    Circle = 0, 
+    Box = 1
+  }
+
   public sealed class FlatBody
   {
     private FlatVector position;
