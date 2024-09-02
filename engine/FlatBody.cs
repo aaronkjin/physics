@@ -31,7 +31,7 @@ namespace engine
 
     public readonly ShapeType ShapeType;
 
-    private FlatBody(FlatVector position, float density, float mass, float restitution, float area, float isStatic, float radius, float width, float height, ShapeType shapeType)
+    private FlatBody(FlatVector position, float density, float mass, float restitution, float area, bool isStatic, float radius, float width, float height, ShapeType shapeType)
     {
       this.position = position;
       this.linearVelocity = FlatVector.Zero;
