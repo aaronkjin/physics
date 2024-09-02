@@ -15,20 +15,20 @@ namespace engine
     private float rotation;
     private float rotationalVelocity;
 
-    private float density;
-    private float mass;
-    private float restitution; // Bounce!
-    private float area;
+    public readonly float density;
+    public readonly float mass;
+    public readonly float restitution; // Bounce!
+    public readonly float area;
     
-    private bool isStatic;
+    public readonly bool isStatic;
 
     // For circles
-    private float radius;
+    public readonly float radius;
 
     // For boxes
-    private float width;
-    private float height;
+    public readonly float width;
+    public readonly float height;
 
-    private ShapeType shapeType;
+    public readonly ShapeType shapeType;
   }
 }
