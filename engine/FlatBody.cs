@@ -28,5 +28,7 @@ namespace engine
     // For boxes
     private float width;
     private float height;
+
+    private ShapeType shapeType;
   }
 }
