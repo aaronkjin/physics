@@ -35,6 +35,15 @@ dotnet build
 dotnet run
 ```
 
+## Technologies Used
+
+- C#
+- MonoGame
+
+## Background
+
+After building [Jonin](https://github.com/aaronkjin/jonin) (a ninja platformer game) with PyGame, I became curious on how game engines work. I aim to capture and explore upon this curiosity with this project, specifically in relation to how physics is simulated in game-like environments: whether it be a character walking/running, an enemy jumping, an object falling, etc.
+
 ## Developer
 
 Aaron Jin  
