@@ -4,7 +4,7 @@ namespace engine
 {
   public enum ShapeType
   {
-    Circle = 0, 
+    Circle = 0,
     Box = 1
   }
 
@@ -19,7 +19,7 @@ namespace engine
     public readonly float Mass;
     public readonly float Restitution; // Bounce!
     public readonly float Area;
-    
+
     public readonly bool IsStatic;
 
     // For circles
@@ -50,9 +50,9 @@ namespace engine
       this.ShapeType = shapeType;
     }
 
-    public static bool CreateCircleBody(float radius, FlatVector position, float density, bool isStatic, float restitution)
+    public static bool CreateCircleBody(float radius, FlatVector position, float density, bool isStatic, float restitution, out FlatBody body, out string errorMessage)
     {
-      
+
     }
   }
 }
