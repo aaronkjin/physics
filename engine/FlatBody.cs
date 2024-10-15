@@ -52,7 +52,25 @@ namespace engine
 
     public static bool CreateCircleBody(float radius, FlatVector position, float density, bool isStatic, float restitution, out FlatBody body, out string errorMessage)
     {
+      body = null;
+      errorMessage = string.Empty;
 
+      // pi * r^2
+      float area = radius * radius * MathF.PI;
+
+      // Edge case: Circle is too small
+      if (area < FlatWorld.MinBodySize)
+      {
+        errorMessage = $"Circle radius is too small. Minimum circle area is {FlatWorld.MinBodySize}.";
+        return false;
+      }
+
+      // Edge case: Circle is too big
+      if (area > FlatBody.MaxBodySize)
+      {
+        errorMessage = $"Circle radius is too large. Maximum circle area is {FlatWorld.MaxBodySize}.";
+        return false;
+      }
     }
   }
 }
