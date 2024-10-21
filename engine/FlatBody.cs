@@ -71,6 +71,20 @@ namespace engine
         errorMessage = $"Circle radius is too large. Maximum circle area is {FlatWorld.MaxBodySize}.";
         return false;
       }
+
+      // Edge case: Density is too small
+      if (density < FlatWorld.MinDensity)
+      {
+        errorMessage = $"Density is too small. Minimum density is {FlatWorld.MinDensity}";
+        return false;
+      }
+
+      // Edge case: Density is too big
+      if (density > FlatWorld.MaxDensity)
+      {
+        errorMessage = $"Density is too large. Maximum density is {FlatWorld.MaxDensity}";
+        return false;
+      }
     }
   }
 }
