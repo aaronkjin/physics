@@ -1,3 +1,10 @@
+/* 
+ * World settings and constraints for physics simulation.
+ *
+ * Provides the environment parameters within which
+ * the bodies in the simulation operate.
+ */
+
 using system;
 
 namespace engine
