@@ -1,3 +1,12 @@
+/* 
+ * Representation of physical bodies in the engine.
+ *
+ * Supports circle and box shapes, with properties
+ * like position, velocity, mass, density, and restitution.
+ * Handles body creation and validation, such as ensuring
+ * size and density fall within valid ranges.
+ */
+
 using System;
 
 namespace engine
