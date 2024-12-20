@@ -94,6 +94,10 @@ namespace engine
         errorMessage = $"Density is too large. Maximum density is {FlatWorld.MaxDensity}";
         return false;
       }
+
+      restitution = FlatMath.Clamp(restitution, 0f, 1f);
+
+      body = new FlatBody(position, density, mass, restitution, area, isStatic, 0f, 0f, ShapeType.Circle);
     }
   }
 }
