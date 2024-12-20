@@ -16,6 +16,32 @@ namespace engine
 {
   public static class FlatMath
   {
+    // Clamp value between the min and max
+    public static float Clamp(float value, float min, float max)
+    {
+      if (min == max)
+      {
+        return min;
+      }
+
+      if (min > max)
+      {
+        throw new ArgumentOutOfRangeException("Minimum is greater than the maximum.");
+      }
+
+      if (value < min)
+      {
+        return min;
+      }
+
+      if (value > max)
+      {
+        return max;
+      }
+
+      return value;
+    }
+
     // Length/magnitude of a vector
     public static float Length(FlatVector v)
     {
