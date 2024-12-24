@@ -97,6 +97,9 @@ namespace engine
 
       restitution = FlatMath.Clamp(restitution, 0f, 1f);
 
+      // mass = area * depth * density
+      float mass = area * 1f * density;
+
       body = new FlatBody(position, density, mass, restitution, area, isStatic, 0f, 0f, ShapeType.Circle);
     }
   }
